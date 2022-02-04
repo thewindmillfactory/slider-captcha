@@ -9,7 +9,7 @@ const fetchCaptcha = (create) => () =>
     : fetch(create, {
         // Use create as API URL for fetch
         method: 'GET',
-        credentials: 'include',
+        credentials: 'omit',
       }).then((message) => message.json());
 
 const fetchVerification = (verify) => (response, trail) =>
@@ -18,7 +18,7 @@ const fetchVerification = (verify) => (response, trail) =>
     : fetch(verify, {
         // Verification API URL provided instead
         method: 'POST',
-        credentials: 'include',
+        credentials: 'omit',
         headers: {
           'Content-Type': 'application/json',
         },
