@@ -15,7 +15,7 @@
     "scripts": "node scripts/themes",
     "babel": "babel src -d ./lib --ignore '**/*.test.js'",
     "build": "npm run lint && npm run sass && npm run scripts && npm run babel",
-    "packgize": "npm install && npm run sass && npm run scripts && npm run babel"
+    "packagize": "npm install && npm run sass && npm run scripts && npm run babel"
   },
   "repository": {
     "type": "git",
