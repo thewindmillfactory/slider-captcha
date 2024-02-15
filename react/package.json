@@ -52,8 +52,9 @@
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.20.6",
-    "eslint-plugin-react-hooks": "^4.0.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "jest": "^26.4.2",
-    "sass": "^1.26.10"
+    "sass": "^1.26.10",
+    "supervisor": "^0.12.0"
   }
 }
